@@ -1,0 +1,5 @@
+values=input("Input a Python program which accepts a sequence of comma-separated numbers from user and generates a list and a tuple ")
+list=values.split(",")
+tuple=tuple(list)
+print("List:", list)
+print("Tuple:", tuple)
